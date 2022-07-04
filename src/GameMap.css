@@ -1,0 +1,10 @@
+.GameContainer {
+  max-height: 900px;
+  max-width: 1200px;
+  height: 60%;
+  width: 35%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px rgb(183, 179, 179), -1em 0 0.4em rgb(206, 199, 199);
+}

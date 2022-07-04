@@ -1,0 +1,47 @@
+.container {
+  padding:10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  display: flex;
+  justify-content:center ;
+  background-color: rgb(237, 255, 216) !important;
+}
+.letter {
+     flex: 1;
+     background-color: white;
+     width:100%;
+     height: 100%;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     border-style:groove;
+     outline: none;
+     resize: none;
+     height: 100%;
+     width: 100%;
+     color: transparent;
+     caret-color: transparent;
+     font-size:xx-large !important;
+}
+.word{
+    display:flex;
+    border-style:groove;
+    flex: 1;
+    display: flex;
+    border: none;
+}
+.char{
+    margin:0;
+    align-self:"center";
+    font-size:xx-large !important;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    caret-color: transparent;
+}
